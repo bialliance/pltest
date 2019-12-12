@@ -1,0 +1,24 @@
+{
+    "name": "pltests",
+    "version": "1.1.1",
+    "description": "performance and load testing tools for unb blockchain",
+    "main": "pltest.js",
+    "scripts": {
+        "test": "mocha --timeout 10000 --exit",
+        "start": "node pltest"
+    },
+    "keywords": [
+        "unb",
+        "performance",
+        "load",
+        "speed",
+        "test"
+    ],
+    "author": "Oleg Tomin",
+    "license": "MIT",
+    "dependencies": {
+        "axios": "^0.18.0",
+        "colors": "^1.3.3",
+        "ws": "^6.2.0"
+    }
+}

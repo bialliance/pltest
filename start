@@ -1,0 +1,8 @@
+#!/bin/sh
+
+cd /home/tominop/pltest
+
+node pltest $1 $2 > ./log/pltest.log &
+
+
+exit 0
